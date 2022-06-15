@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;     
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: gray;
+  }
+  
+  #box {
+    background-color: #0000ff;
+    padding: 10px;          /*Espacio entre borde y contenido*/
+    border: 5px solid black;
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;   /*Distancia entre la caja y el título, en total son 80=30px del titulo + los 50 de margin-top*/
+    overflow: auto;/*tiene que ver con la distribución de los elementos dentro de una página HTML*/
+
+  }
+  #content {
+    background-color: #90EE90; /*green*/
+  }
+  
+  h1 {
+    margin-bottom: 30px;  /*MI TÍTULO TIENE UN MÁRGEN DE 30PX*/
+  }

@@ -1,0 +1,22 @@
+div.dos_eme{        /*usando clases*/
+    font-size: 2em;
+}
+#cuatro{            /*Esto es ocupando id*/
+    font-size: 4em;
+}
+.otra_vez{          /*usando clases*/
+    font-size: .5em;
+}
+
+/*tambien podemos ocupar lo siguiente
+div:nth-child(){}*/
+
+.style{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;          /*Alineación del texto*/
+    text-transform: uppercase;
+}

@@ -1,0 +1,12 @@
+body {
+    background-color: gray;
+    font-size: 130%;            /*tamaño de la fuente, nuestros navegadores a veces aumentan un 30%*/
+}
+
+h1 {
+    color: maroon;
+}
+
+p.centrado{
+    text-align: center;
+}
