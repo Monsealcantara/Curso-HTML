@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Posicionamiento de elementos</title>
+<style>
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div#container {
+  background-color: #00FFFF;
+  position: relative;
+  top:65px;  /*Mueve el contenedor, osea lo que está en azul*/
+}
+p {         
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  /*float: left;*/  /*Como está en p, decimos que cualquier elemento que este en parráfo flote*/
+}
+
+#p1 {
+  background-color: #A52A2A;
+  position: relative;
+  top: 65px;
+  left: 65px;           /*Es una posición relativa y las medidas se toman desde su posición original y el hueco de su posición original se queda*/
+}
+#p2 {
+  background-color: #DEB887;
+}
+#p3 {
+  background-color: #5F9EA0;
+  clear: both;      /*Con both garantizo que el elemento se mueva hacua abajo sin importar el tamaño del elemento que esté arriba de este*/
+  position: absolute;    /*se movio hasta arriba (cuando solo pusimos absoluto) pero se movio hasta arriba del hueco*/
+  top:0px;
+  left: 0px;
+}
+#p4 {
+  background-color: #FF7F50;
+}
+section{
+  clear: left;                           /*Hace que los elementos donde realmente se tienen que colocar*/
+}
+</style>
+</head>
+<body>
+<h1>Elementos flotantes</h1>
+
+<div id="container">
+  <p id="p1"></p>
+  <p id="p2"></p>
+  <p id="p3"></p>
+  <p id="p4"></p>
+  <section>Esto es el contenido regular que continua despues de las cajas de párrafos.</section>
+</div>
+
+
+</body>
+</html>

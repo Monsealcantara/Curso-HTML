@@ -1,0 +1,39 @@
+a:link, a:visited{
+    text-decoration: none;
+    background-color: aqua;
+    border: 5px solid pink;
+    color:black;
+    display:block;
+    width: 200px;           /**/
+    text-align: center;
+    margin-bottom: 0px;        /*margen del botón*/
+}
+a:hover, a:active{
+    background-color:mediumpurple;
+    color:turquoise;
+}
+#part1 {
+    background-color: aquamarine;
+    width: 30%;
+    float: left;
+    height: 100vh;
+    /*background-size: cover;*/
+}
+
+#part2 {
+    background-color:blueviolet;
+    width: 70%;
+    float: right;
+    height: 100vh;
+    /*background-size: cover;*/
+}
+
+footer{
+    /*background-color: chartreuse;*/
+    text-align: center;
+}
+a.centrado{
+    font-family: monospace;
+    color: tomato;
+    float: right;
+}

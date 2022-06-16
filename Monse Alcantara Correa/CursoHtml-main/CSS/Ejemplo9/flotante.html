@@ -8,25 +8,33 @@
 div {
   background-color: #00FFFF;
 }
-p {
+p {         
   width: 50px;
   height: 50px;
   border: 1px solid black;
+  /*float: left;*/  /*Como está en p, decimos que cualquier elemento que este en parráfo flote*/
 }
 
 #p1 {
   background-color: #A52A2A;
+  float: left;                       /*Cuando decimos que es flotante, como que se mueve de lugar*/
+  height: 500px;
 }
 #p2 {
   background-color: #DEB887;
+  float: right;
+  height: 150px;
 }
 #p3 {
   background-color: #5F9EA0;
+  clear: both;      /*Con both garantizo que el elemento se mueva hacua abajo sin importar el tamaño del elemento que esté arriba de este*/
 }
 #p4 {
   background-color: #FF7F50;
 }
-
+section{
+  clear: left;                           /*Hace que los elementos donde realmente se tienen que colocar*/
+}
 </style>
 </head>
 <body>

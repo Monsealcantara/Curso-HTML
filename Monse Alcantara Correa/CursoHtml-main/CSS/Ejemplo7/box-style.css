@@ -1,26 +1,45 @@
-*{
-    box-sizing: border-box;     
-    margin: 0;
-    padding: 0;
+* {
+  /*El * sirve para indicar que las propiedades se aplicarán a todo lo contenido en el HTML*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body {
-    background-color: gray;
-  }
-  
-  #box {
-    background-color: #0000ff;
-    padding: 10px;          /*Espacio entre borde y contenido*/
-    border: 5px solid black;
-    width: 300px;
-    height: 50px;
-    margin-top: 50px;   /*Distancia entre la caja y el título, en total son 80=30px del titulo + los 50 de margin-top*/
-    overflow: auto;/*tiene que ver con la distribución de los elementos dentro de una página HTML*/
 
-  }
-  #content {
-    background-color: #90EE90; /*green*/
-  }
-  
-  h1 {
-    margin-bottom: 30px;  /*MI TÍTULO TIENE UN MÁRGEN DE 30PX*/
-  }
+body {
+  background-color: gray;
+  margin: 0px;
+}
+
+#box {
+  /**/
+  background-color: #0000ff;
+  /*padding: 10px;   */
+  /*Espacio entre borde y contenido*/
+  padding: 10px 30px 15px 20px;
+  /*es para darle diferentes dimensiones al padding*/
+  /*border: 5px solid black;*/
+  width: 300px;
+  /*En realidad mide 320px ya que se agrega el tamaño del padding*/
+  /*box-sizing: border-box;                      /*Especifica el tamaño del borde de la caja*/
+  /*box-sizing: content-box;                     /*box-sizing ->tamaño de caja, content->solo especifica eñ tamaño del contenido*/
+  height: 50px;
+  margin-top: 50px;
+  overflow: auto;
+  /*tiene que ver con la distribución de los elementos dentro de una página HTML*/
+  /*margin: 10px;*/
+
+  /*hidden: oculta el contenido que sobra cuando no cabe la info
+    visible: es la configuración normal
+    scroll: agrega la barra de desplazamiento
+    auto: agrega barra de desplazamiento*/
+}
+
+#content {
+  background-color: #90ee90;
+  /*green*/
+}
+
+h1 {
+  margin-bottom: 30px;
+  /*MI TÍTULO TIENE UN MÁRGEN DE 30PX*/
+}
