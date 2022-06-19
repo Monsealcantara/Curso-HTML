@@ -1,0 +1,12 @@
+.button{
+    background-color: aquamarine;
+    border: none;
+    text-align: center;
+    display: block;     /*con block indico que son elementos de bloque y con inline-block que son elementos de linea */
+    font-size: 16px;
+    padding: 15 px 32px;
+}
+
+.button:hover{
+    background-color: pink;
+}

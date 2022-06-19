@@ -1,0 +1,30 @@
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */ /*hace que el conet¿nido se mantenga aunque se */
+    z-index: 1; /* Stay on top */  /*simula que sale de la pantalla, nos sirve para ver si esta debajo o encima de un elemento osea por delante m por sdetrás de uno de ellos*/
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;  /*espacio entre el contenido y borde supwerior sea de 20px*/
+}
+
+/* The navigation menu links */
+.sidenav a {        /*aplicable para los hiper enlaces dentro de la clase sidenav*/
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Style page content */   /*es importante para que algun contenido para que no se ponga abajo del  menu*/
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }

@@ -1,0 +1,18 @@
+<!DOCTYPE html>  <!--un html se ejecuta de forma secuencial, es decir linea por línea-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <button id="boton1" class="button">Mostrar texto</button>
+    <button id="boton2"  class="button" onclick="borrar();">Borrar texto</button>           <!--lo de oneclik es preferible no usarlo para no mezclar estructura con comportamiento-->
+    <button id="boton3"  class="button">Cambiar color</button>
+    <button id="boton4"  class="button">Escribir texto</button>
+    <input type="text" id="msg"/>           <!--agrega una caja para escribir en la página-->
+    <div id="content"></div>
+    <h1 id="texto"></h1>
+</body>
+<script src="js/index.js"></script>
+</html>
